@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+#login-button{
+    padding-bottom: 15px;
+}
+
+
+.homebutton{
+    background-color: #0072c6;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 106%;
+    padding: 12px;
+    margin-top: 10px;
+}
+
+a.homebutton:hover{
+    background-color: #005baa;
+}
+
+
+
+
+.inputbox{
+    
+    border: 2px solid #060606;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    width: 30%;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    
+}
+
+  h2 {
+    font-family: "Roboto", sans-serif;
+    font-size:40px; text-align: center;  padding-top: 20px; font-weight: bold; color: #23527c;
+  }
+  h3{
+    font-family: "Roboto", sans-serif;
+    font-size:30px; padding-top: 20px; font-weight: bold; color: #23527c;
+  }
+
+#menu{
+	list-style-type:none;
+	font-size:20px;
+    position: absolute;
+    top: 15px;
+    left: 15%;
+}
+
+#menu li{
+	display:block;
+}
+
+#menu li:hover{
+	background-color: rgb(14, 121, 135);
+    text-decoration: none;
+    
+}
+
+
+
+li a{
+	display: block;
+	text-align: center;
+	padding: 16px;
+    text-decoration: underline;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: bold;
+    color: #23527c;
+}
+.social-links li a:hover{
+    color: rgb(14, 121, 135);
+
+}
+li{
+	float: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: left;
+   
+}
+
+
+
+button[type="submit"], button[type="home"] {
+    background-color: #0072c6;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 106%;
+    padding: 12px;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover ,  button[type="home"]:hover{
+    background-color: #005baa;
+}

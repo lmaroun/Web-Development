@@ -1,0 +1,47 @@
+/* Social media icons */
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    margin: 0 1rem;
+  }
+  
+  .social-media img {
+    height: 2.5rem;
+  }
+  
+  /* Contact information */
+  .contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-info div {
+    margin: 0 1rem;
+    text-align: center;
+  }
+  
+  .contact-info img {
+    height: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Map */
+  .map {
+    height: 400px;
+    margin-bottom: 2rem;
+  }
+  
+  /* Directions */
+  .directions {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
